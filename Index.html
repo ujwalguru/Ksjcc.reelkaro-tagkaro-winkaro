@@ -237,6 +237,30 @@
     .popup-content button:hover {
       opacity: 0.8;
     }
+  .form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.register-button:hover {
+  transform: scale(1.05);
+}
   </style>
 </head>
 <body>
@@ -258,27 +282,12 @@
   <section class="hero">
     <img src="heroi.png" alt="Center Logo" class="logo">
     <h2>Create Reels, Submit, & Win!</h2>
-<form id="reel-form" class="form-box" action="https://docs.google.com/forms/d/e/1FAIpQLScLKlGNqP0S1aNBjlnmlVCPQdavOrkRZbfCGq4iJaBZtJ8YfQ/viewform" target="_blank" method="GET">
-  <!-- Full Name -->
-  <label for="full-name">Full Name:</label>
-  <input type="text" id="full-name" name="entry.1850618895" placeholder="Enter your full name" required>
-
-  <!-- Student STD/Division -->
-  <label for="student-std">Student STD/Division:</label>
-  <input type="text" id="student-std" name="entry.1787427190" placeholder="Enter your standard and division (e.g., 11th-A , 12th-A )" required>
-  
-  <!-- Instagram Username -->
-  <label for="instagram-id">Instagram Username:</label>
-  <input type="text" id="instagram-id" name="entry.1387915441" placeholder="Enter your Instagram username" required>
-
-  <!-- Reel Link -->
-  <label for="reel-link">Reel Link:</label>
-  <input type="url" id="reel-link" name="entry.1473998434" placeholder="Paste your reel link" required>
-
-  <!-- Submit Button -->
-  <button type="submit">Submit</button>
-</form>
   </section>
+<section id="registration" class="form-section">
+  <a href="https://forms.gle/gCrwqnbyiKKC8gTS8" target="_blank" class="register-button">
+    Click Here to Register
+  </a>
+</section>
 
   <!-- How to Register Section -->
   <div class="section-box">
