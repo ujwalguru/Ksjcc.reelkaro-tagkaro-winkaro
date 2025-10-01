@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; background: #0b0f1a; color: #e5e7eb; }
+
+.card { @apply bg-slate-800/60 border border-slate-700 rounded-lg p-4; }
+.btn { @apply px-3 py-2 rounded-md bg-accent text-white hover:opacity-90 disabled:opacity-50; }
+.btn-secondary { @apply px-3 py-2 rounded-md bg-slate-700 text-white hover:bg-slate-600; }
+
